@@ -10,6 +10,7 @@ class DocumentationMapper {
   constructor(options = {}) {
     this.dbType = options.dbType || 'sqlite';
     this.configFile = options.configFile;
+    this.skipDocs = options.skipDocs || false;
     this.logger = this.setupLogger();
     this.database = null;
     this.scanner = null;
@@ -85,6 +86,23 @@ class DocumentationMapper {
       try {
         this.logger.info(`Processing ${dep.ecosystem}/${dep.name}@${dep.version}`);
 
+        // Skip workspace packages (internal monorepo packages)
+        if (dep.version === 'workspace:*' || dep.version?.includes('workspace:')) {
+          this.logger.info(`Skipping workspace package: ${dep.name}@${dep.version}`);
+          results.push({
+            ecosystem: dep.ecosystem,
+            name: dep.name,
+            version: dep.version,
+            description: `Internal workspace package: ${dep.name}`,
+            documentation: { note: 'Workspace package - no external documentation available' },
+            source: dep.source,
+            manifestPath: dep.manifestPath,
+            isDevDependency: dep.isDevDependency,
+            lastUpdated: new Date().toISOString()
+          });
+          continue;
+        }
+
         // Check if already exists in database
         const existing = await this.database.getPackageDocumentation(dep.name, dep.version, dep.ecosystem);
         if (existing) {
@@ -96,8 +114,11 @@ class DocumentationMapper {
         // Fetch package description
         const description = await this.fetcher.fetchDescription(dep);
 
-        // Crawl documentation
-        const documentation = await this.crawler.crawlDocumentation(dep);
+        // Crawl documentation (skip if disabled)
+        let documentation = { note: 'Documentation fetching disabled' };
+        if (!this.skipDocs) {
+          documentation = await this.crawler.crawlDocumentation(dep);
+        }
 
         // Store in database
         const packageData = {

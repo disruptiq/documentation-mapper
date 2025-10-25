@@ -17,6 +17,24 @@ A tool to extract dependencies from codebases and fetch their documentation and 
 npm install
 ```
 
+## Configuration
+
+Copy the example environment file and configure as needed:
+
+```bash
+cp .env.example .env
+```
+
+See `.env.example` for available configuration options.
+
+## Environment Variables
+
+| Variable | Description | Default |
+|----------|-------------|---------|
+| `FIRECRAWL_API_KEY` | API key for Firecrawl service | - |
+| `FIRECRAWL_BASE_URL` | Base URL for Firecrawl API | `https://api.firecrawl.dev` |
+| `MONGODB_URI` | MongoDB connection string | - |
+
 ## Usage
 
 ### Process a dependency scan JSON file
@@ -86,6 +104,46 @@ node src/index.js scan example-output.json
 ```
 
 Without the API key, the tool falls back to basic HTML text extraction.
+
+### Local Firecrawl Instance
+
+You can also run Firecrawl locally using Docker for enhanced privacy and no API limits:
+
+#### Quick Setup (Recommended)
+
+Run the provided setup script:
+
+```bash
+# On Linux/Mac
+./docker-setup.sh
+
+# On Windows (PowerShell)
+.\docker-setup.ps1  # or run commands manually
+```
+
+#### Manual Setup
+
+1. **Clone and run Firecrawl locally:**
+   ```bash
+   git clone https://github.com/mendableai/firecrawl.git
+   cd firecrawl
+   docker-compose up -d
+   ```
+
+2. **Configure the documentation mapper to use local Firecrawl:**
+   ```bash
+   export FIRECRAWL_BASE_URL=http://localhost:3002
+   export FIRECRAWL_API_KEY=your_local_api_key  # if required by your local setup
+   node src/index.js scan example-output.json
+   ```
+
+The default local Firecrawl URL is typically `http://localhost:3002` or `http://localhost:8000`. Check your Firecrawl Docker setup for the exact endpoint.
+
+**Benefits of local Firecrawl:**
+- No API rate limits
+- Enhanced privacy (data stays local)
+- Better performance for large documentation sets
+- No API costs
 
 ## Rate Limiting & Error Handling
 

@@ -4,6 +4,8 @@ class DocumentationCrawler {
   constructor(options = {}) {
     this.logger = options.logger;
     this.firecrawlApiKey = process.env.FIRECRAWL_API_KEY;
+    // Allow configurable Firecrawl base URL for local instances
+    this.firecrawlBaseUrl = process.env.FIRECRAWL_BASE_URL || 'https://api.firecrawl.dev';
     this.cache = new Map();
   }
 
@@ -53,7 +55,7 @@ class DocumentationCrawler {
     }
 
     try {
-      const response = await axios.post('https://api.firecrawl.dev/v1/scrape', {
+      const response = await axios.post(`${this.firecrawlBaseUrl}/v1/scrape`, {
         url: docUrl,
         formats: ['markdown'],
         onlyMainContent: true

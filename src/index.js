@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+require('dotenv').config();
 const { Command } = require('commander');
 const path = require('path');
 const fs = require('fs');
@@ -19,11 +20,13 @@ program
   .option('-d, --db <type>', 'Database type: sqlite or mongodb', 'sqlite')
   .option('-c, --config <file>', 'Configuration file path')
   .option('-o, --output <file>', 'Output file for results')
+  .option('--skip-docs', 'Skip documentation fetching (descriptions only)', false)
   .action(async (input, options) => {
     try {
       const mapper = new DocumentationMapper({
         dbType: options.db,
-        configFile: options.config
+        configFile: options.config,
+        skipDocs: options.skipDocs
       });
 
       await mapper.initialize();
@@ -41,7 +44,7 @@ program
         throw new Error(`Invalid input: ${input} is not a valid file or directory`);
       }
 
-      console.log(`Found ${dependencies.length} dependencies`);
+      console.log(`Found ${dependencies.length} dependencies${options.skipDocs ? ' (documentation fetching disabled)' : ''}`);
 
       const results = await mapper.processDependencies(dependencies);
 

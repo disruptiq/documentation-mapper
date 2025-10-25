@@ -401,3 +401,93 @@
 2025-10-25T08:05:55.366Z [warn]: Failed to get repository URL for @calcom/features: Request failed with status code 404
 2025-10-25T08:05:55.478Z [warn]: 403 error on attempt 1 for @calcom/features@workspace:*, retrying in 2 seconds...
 2025-10-25T08:05:57.587Z [warn]: 403 error on attempt 2 for @calcom/features@workspace:*, retrying in 4 seconds...
+2025-10-25T08:31:03.901Z [info]: Initializing DocumentationMapper...
+2025-10-25T08:31:03.907Z [info]: Initializing sqlite database...
+2025-10-25T08:31:03.928Z [info]: Connected to SQLite database
+2025-10-25T08:31:04.485Z [info]: SQLite tables created successfully
+2025-10-25T08:31:11.918Z [info]: Initializing DocumentationMapper...
+2025-10-25T08:31:11.923Z [info]: Initializing sqlite database...
+2025-10-25T08:31:11.937Z [info]: Connected to SQLite database
+2025-10-25T08:31:11.944Z [info]: SQLite tables created successfully
+2025-10-25T08:31:11.945Z [info]: DocumentationMapper initialized successfully
+2025-10-25T08:31:11.947Z [info]: Loading dependencies from JSON file: output.json
+2025-10-25T08:31:11.959Z [info]: Processing 943 dependencies
+2025-10-25T08:31:11.961Z [info]: Processing npm/connect@^3.7.0
+2025-10-25T08:31:13.247Z [info]: Successfully processed connect@^3.7.0
+2025-10-25T08:31:13.522Z [info]: Processing npm/http@^0.0.1-security
+2025-10-25T08:31:15.176Z [info]: Successfully processed http@^0.0.1-security
+2025-10-25T08:31:15.548Z [info]: Processing npm/http-proxy-middleware@^2.0.6
+2025-10-25T08:31:16.465Z [info]: Successfully processed http-proxy-middleware@^2.0.6
+2025-10-25T08:31:16.744Z [info]: Processing npm/@calcom/eslint-config@workspace:*
+2025-10-25T08:31:17.611Z [error]: Failed to fetch description for @calcom/eslint-config@workspace:*: NPM fetch failed: Request failed with status code 404
+2025-10-25T08:31:17.670Z [warn]: Failed to get repository URL for @calcom/eslint-config: Request failed with status code 404
+2025-10-25T08:31:17.836Z [warn]: 403 error on attempt 1 for @calcom/eslint-config@workspace:*, retrying in 2 seconds...
+2025-10-25T08:31:19.956Z [warn]: 403 error on attempt 2 for @calcom/eslint-config@workspace:*, retrying in 4 seconds...
+2025-10-25T08:31:24.314Z [info]: Successfully processed @calcom/eslint-config@workspace:*
+2025-10-25T08:31:24.592Z [info]: Processing npm/@calcom/app-store@workspace:*
+2025-10-25T08:31:26.775Z [warn]: 403 error on attempt 1 for @calcom/app-store@workspace:*, retrying in 2 seconds...
+2025-10-25T08:31:28.916Z [warn]: 403 error on attempt 2 for @calcom/app-store@workspace:*, retrying in 4 seconds...
+2025-10-25T08:31:33.219Z [info]: Successfully processed @calcom/app-store@workspace:*
+2025-10-25T08:31:33.561Z [info]: Processing npm/@calcom/dayjs@workspace:*
+2025-10-25T08:31:34.574Z [error]: Failed to fetch description for @calcom/dayjs@workspace:*: NPM fetch failed: Request failed with status code 404
+2025-10-25T08:31:34.648Z [warn]: Failed to get repository URL for @calcom/dayjs: Request failed with status code 404
+2025-10-25T08:31:34.787Z [warn]: 403 error on attempt 1 for @calcom/dayjs@workspace:*, retrying in 2 seconds...
+2025-10-25T08:31:36.942Z [warn]: 403 error on attempt 2 for @calcom/dayjs@workspace:*, retrying in 4 seconds...
+2025-10-25T08:31:41.188Z [info]: Successfully processed @calcom/dayjs@workspace:*
+2025-10-25T08:31:41.438Z [info]: Processing npm/@calcom/emails@workspace:*
+2025-10-25T08:31:42.436Z [error]: Failed to fetch description for @calcom/emails@workspace:*: NPM fetch failed: Request failed with status code 404
+2025-10-25T08:31:42.493Z [warn]: Failed to get repository URL for @calcom/emails: Request failed with status code 404
+2025-10-25T08:31:42.659Z [warn]: 403 error on attempt 1 for @calcom/emails@workspace:*, retrying in 2 seconds...
+2025-10-25T08:32:53.589Z [info]: Initializing DocumentationMapper...
+2025-10-25T08:32:53.594Z [info]: Initializing sqlite database...
+2025-10-25T08:32:53.600Z [info]: Connected to SQLite database
+2025-10-25T08:32:53.607Z [info]: SQLite tables created successfully
+2025-10-25T08:32:53.608Z [info]: DocumentationMapper initialized successfully
+2025-10-25T08:32:53.610Z [info]: Loading dependencies from JSON file: output.json
+2025-10-25T08:32:53.617Z [info]: Processing 943 dependencies
+2025-10-25T08:32:53.617Z [info]: Processing npm/connect@^3.7.0
+2025-10-25T08:32:53.623Z [info]: Documentation already exists for connect@^3.7.0
+2025-10-25T08:32:53.624Z [info]: Processing npm/http@^0.0.1-security
+2025-10-25T08:32:53.626Z [info]: Documentation already exists for http@^0.0.1-security
+2025-10-25T08:32:53.626Z [info]: Processing npm/http-proxy-middleware@^2.0.6
+2025-10-25T08:32:53.628Z [info]: Documentation already exists for http-proxy-middleware@^2.0.6
+2025-10-25T08:32:53.628Z [info]: Processing npm/@calcom/eslint-config@workspace:*
+2025-10-25T08:32:53.628Z [info]: Skipping workspace package: @calcom/eslint-config@workspace:*
+2025-10-25T08:32:53.629Z [info]: Processing npm/@calcom/app-store@workspace:*
+2025-10-25T08:32:53.629Z [info]: Skipping workspace package: @calcom/app-store@workspace:*
+2025-10-25T08:32:53.630Z [info]: Processing npm/@calcom/dayjs@workspace:*
+2025-10-25T08:32:53.630Z [info]: Skipping workspace package: @calcom/dayjs@workspace:*
+2025-10-25T08:32:53.630Z [info]: Processing npm/@calcom/emails@workspace:*
+2025-10-25T08:32:53.630Z [info]: Skipping workspace package: @calcom/emails@workspace:*
+2025-10-25T08:32:53.630Z [info]: Processing npm/@calcom/features@workspace:*
+2025-10-25T08:32:53.630Z [info]: Skipping workspace package: @calcom/features@workspace:*
+2025-10-25T08:32:53.630Z [info]: Processing npm/@calcom/lib@workspace:*
+2025-10-25T08:32:53.631Z [info]: Skipping workspace package: @calcom/lib@workspace:*
+2025-10-25T08:32:53.631Z [info]: Processing npm/@calcom/prisma@workspace:*
+2025-10-25T08:32:53.631Z [info]: Skipping workspace package: @calcom/prisma@workspace:*
+2025-10-25T08:32:53.631Z [info]: Processing npm/@calcom/trpc@workspace:*
+2025-10-25T08:32:53.631Z [info]: Skipping workspace package: @calcom/trpc@workspace:*
+2025-10-25T08:32:53.631Z [info]: Processing npm/@prisma/nextjs-monorepo-workaround-plugin@^6.16.1
+2025-10-25T08:32:56.956Z [info]: Successfully processed @prisma/nextjs-monorepo-workaround-plugin@^6.16.1
+2025-10-25T08:32:57.174Z [info]: Processing npm/@sentry/nextjs@^9.15.0
+2025-10-25T08:32:58.612Z [info]: Successfully processed @sentry/nextjs@^9.15.0
+2025-10-25T08:32:58.979Z [info]: Processing npm/bcryptjs@^2.4.3
+2025-10-25T08:32:59.246Z [info]: Successfully processed bcryptjs@^2.4.3
+2025-10-25T08:32:59.546Z [info]: Processing npm/memory-cache@^0.2.0
+2025-10-25T08:32:59.835Z [info]: Successfully processed memory-cache@^0.2.0
+2025-10-25T08:33:00.256Z [info]: Processing npm/next@^15.4.5
+2025-10-25T08:33:03.219Z [info]: Successfully processed next@^15.4.5
+2025-10-25T08:33:03.678Z [info]: Processing npm/next-api-middleware@^1.0.1
+2025-10-25T08:33:05.306Z [info]: Successfully processed next-api-middleware@^1.0.1
+2025-10-25T08:33:05.536Z [info]: Processing npm/next-axiom@^0.17.0
+2025-10-25T08:33:07.930Z [info]: Successfully processed next-axiom@^0.17.0
+2025-10-25T08:33:08.339Z [info]: Processing npm/next-swagger-doc@^0.3.6
+2025-10-25T08:33:09.697Z [info]: Successfully processed next-swagger-doc@^0.3.6
+2025-10-25T08:33:10.131Z [info]: Processing npm/next-validations@^0.2.0
+2025-10-25T08:33:11.996Z [info]: Successfully processed next-validations@^0.2.0
+2025-10-25T08:33:12.274Z [info]: Processing npm/typescript@^5.9.0-beta
+2025-10-25T08:33:14.186Z [info]: Successfully processed typescript@^5.9.0-beta
+2025-10-25T08:33:14.685Z [info]: Processing npm/tzdata@^1.0.30
+2025-10-25T08:33:15.788Z [info]: Successfully processed tzdata@^1.0.30
+2025-10-25T08:33:16.194Z [info]: Processing npm/uuid@^8.3.2
+2025-10-25T08:33:17.900Z [info]: Successfully processed uuid@^8.3.2
