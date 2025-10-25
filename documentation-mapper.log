@@ -1,0 +1,403 @@
+2025-10-25T07:54:55.081Z [info]: Initializing DocumentationMapper...
+2025-10-25T07:54:55.086Z [info]: Initializing sqlite database...
+2025-10-25T07:54:55.093Z [info]: Connected to SQLite database
+2025-10-25T07:54:55.378Z [info]: SQLite tables created successfully
+2025-10-25T07:54:55.380Z [info]: DocumentationMapper initialized successfully
+2025-10-25T07:54:55.384Z [info]: Loading dependencies from JSON file: output.json
+2025-10-25T07:54:55.395Z [info]: Processing 943 dependencies
+2025-10-25T07:54:55.396Z [info]: Processing npm/connect@^3.7.0
+2025-10-25T07:54:55.990Z [info]: Successfully processed connect@^3.7.0
+2025-10-25T07:54:56.998Z [info]: Processing npm/http@^0.0.1-security
+2025-10-25T07:54:58.730Z [info]: Successfully processed http@^0.0.1-security
+2025-10-25T07:54:59.742Z [info]: Processing npm/http-proxy-middleware@^2.0.6
+2025-10-25T07:54:59.974Z [info]: Successfully processed http-proxy-middleware@^2.0.6
+2025-10-25T07:55:00.989Z [info]: Processing npm/@calcom/eslint-config@workspace:*
+2025-10-25T07:55:01.844Z [error]: Failed to fetch description for @calcom/eslint-config@workspace:*: NPM fetch failed: Request failed with status code 404
+2025-10-25T07:55:01.949Z [info]: Successfully processed @calcom/eslint-config@workspace:*
+2025-10-25T07:55:02.950Z [info]: Processing npm/@calcom/app-store@workspace:*
+2025-10-25T07:55:05.399Z [info]: Successfully processed @calcom/app-store@workspace:*
+2025-10-25T07:55:06.411Z [info]: Processing npm/@calcom/dayjs@workspace:*
+2025-10-25T07:55:07.270Z [error]: Failed to fetch description for @calcom/dayjs@workspace:*: NPM fetch failed: Request failed with status code 404
+2025-10-25T07:55:07.462Z [info]: Successfully processed @calcom/dayjs@workspace:*
+2025-10-25T07:55:08.463Z [info]: Processing npm/@calcom/emails@workspace:*
+2025-10-25T07:55:09.344Z [error]: Failed to fetch description for @calcom/emails@workspace:*: NPM fetch failed: Request failed with status code 404
+2025-10-25T07:55:09.860Z [info]: Successfully processed @calcom/emails@workspace:*
+2025-10-25T07:55:10.870Z [info]: Processing npm/@calcom/features@workspace:*
+2025-10-25T07:55:11.703Z [error]: Failed to fetch description for @calcom/features@workspace:*: NPM fetch failed: Request failed with status code 404
+2025-10-25T07:55:11.902Z [info]: Successfully processed @calcom/features@workspace:*
+2025-10-25T07:55:12.914Z [info]: Processing npm/@calcom/lib@workspace:*
+2025-10-25T07:55:13.745Z [error]: Failed to fetch description for @calcom/lib@workspace:*: NPM fetch failed: Request failed with status code 404
+2025-10-25T07:55:13.931Z [info]: Successfully processed @calcom/lib@workspace:*
+2025-10-25T07:55:14.934Z [info]: Processing npm/@calcom/prisma@workspace:*
+2025-10-25T07:55:15.732Z [error]: Failed to fetch description for @calcom/prisma@workspace:*: NPM fetch failed: Request failed with status code 404
+2025-10-25T07:55:16.161Z [info]: Successfully processed @calcom/prisma@workspace:*
+2025-10-25T07:55:17.169Z [info]: Processing npm/@calcom/trpc@workspace:*
+2025-10-25T07:55:18.052Z [error]: Failed to fetch description for @calcom/trpc@workspace:*: NPM fetch failed: Request failed with status code 404
+2025-10-25T07:55:18.159Z [info]: Successfully processed @calcom/trpc@workspace:*
+2025-10-25T07:55:19.169Z [info]: Processing npm/@prisma/nextjs-monorepo-workaround-plugin@^6.16.1
+2025-10-25T07:55:22.261Z [info]: Successfully processed @prisma/nextjs-monorepo-workaround-plugin@^6.16.1
+2025-10-25T07:55:23.286Z [info]: Processing npm/@sentry/nextjs@^9.15.0
+2025-10-25T07:55:23.675Z [info]: Successfully processed @sentry/nextjs@^9.15.0
+2025-10-25T07:55:24.686Z [info]: Processing npm/bcryptjs@^2.4.3
+2025-10-25T07:55:24.848Z [info]: Successfully processed bcryptjs@^2.4.3
+2025-10-25T07:55:25.851Z [info]: Processing npm/memory-cache@^0.2.0
+2025-10-25T07:55:26.324Z [info]: Successfully processed memory-cache@^0.2.0
+2025-10-25T07:55:27.338Z [info]: Processing npm/next@^15.4.5
+2025-10-25T07:55:29.762Z [info]: Successfully processed next@^15.4.5
+2025-10-25T07:55:30.778Z [info]: Processing npm/next-api-middleware@^1.0.1
+2025-10-25T07:55:32.029Z [info]: Successfully processed next-api-middleware@^1.0.1
+2025-10-25T07:55:33.038Z [info]: Processing npm/next-axiom@^0.17.0
+2025-10-25T07:55:34.136Z [info]: Successfully processed next-axiom@^0.17.0
+2025-10-25T07:55:35.137Z [info]: Processing npm/next-swagger-doc@^0.3.6
+2025-10-25T07:55:36.414Z [info]: Successfully processed next-swagger-doc@^0.3.6
+2025-10-25T07:55:37.417Z [info]: Processing npm/next-validations@^0.2.0
+2025-10-25T07:55:38.972Z [info]: Successfully processed next-validations@^0.2.0
+2025-10-25T07:55:39.983Z [info]: Processing npm/typescript@^5.9.0-beta
+2025-10-25T07:55:41.767Z [info]: Successfully processed typescript@^5.9.0-beta
+2025-10-25T07:55:42.773Z [info]: Processing npm/tzdata@^1.0.30
+2025-10-25T07:55:43.686Z [info]: Successfully processed tzdata@^1.0.30
+2025-10-25T07:55:44.703Z [info]: Processing npm/uuid@^8.3.2
+2025-10-25T07:55:44.892Z [info]: Successfully processed uuid@^8.3.2
+2025-10-25T07:55:45.905Z [info]: Processing npm/zod@^3.22.4
+2025-10-25T07:55:46.544Z [info]: Successfully processed zod@^3.22.4
+2025-10-25T07:55:47.549Z [info]: Processing npm/@calcom/eslint-config@workspace:*
+2025-10-25T07:55:47.551Z [info]: Documentation already exists for @calcom/eslint-config@workspace:*
+2025-10-25T07:55:47.552Z [info]: Processing npm/@calcom/tsconfig@workspace:*
+2025-10-25T07:55:48.362Z [error]: Failed to fetch description for @calcom/tsconfig@workspace:*: NPM fetch failed: Request failed with status code 404
+2025-10-25T07:55:48.546Z [info]: Successfully processed @calcom/tsconfig@workspace:*
+2025-10-25T07:55:49.547Z [info]: Processing npm/@calcom/types@workspace:*
+2025-10-25T07:55:50.386Z [error]: Failed to fetch description for @calcom/types@workspace:*: NPM fetch failed: Request failed with status code 404
+2025-10-25T07:55:50.802Z [info]: Successfully processed @calcom/types@workspace:*
+2025-10-25T07:55:51.808Z [info]: Processing npm/node-mocks-http@^1.11.0
+2025-10-25T07:55:51.986Z [info]: Successfully processed node-mocks-http@^1.11.0
+2025-10-25T07:55:52.996Z [info]: Processing docker/node@20-alpine
+2025-10-25T07:55:52.998Z [warn]: Unsupported ecosystem: docker
+2025-10-25T07:55:53.059Z [info]: Successfully processed node@20-alpine
+2025-10-25T07:55:54.066Z [info]: Processing npm/@axiomhq/winston@^1.2.0
+2025-10-25T07:55:56.799Z [info]: Successfully processed @axiomhq/winston@^1.2.0
+2025-10-25T07:55:57.810Z [info]: Processing npm/@calcom/platform-constants@workspace:*
+2025-10-25T07:55:58.625Z [error]: Failed to fetch description for @calcom/platform-constants@workspace:*: NPM fetch failed: Request failed with status code 404
+2025-10-25T07:55:58.731Z [info]: Successfully processed @calcom/platform-constants@workspace:*
+2025-10-25T07:55:59.733Z [info]: Processing npm/@calcom/platform-enums@workspace:*
+2025-10-25T07:56:00.542Z [error]: Failed to fetch description for @calcom/platform-enums@workspace:*: NPM fetch failed: Request failed with status code 404
+2025-10-25T07:56:01.019Z [info]: Successfully processed @calcom/platform-enums@workspace:*
+2025-10-25T07:56:02.031Z [info]: Processing npm/@calcom/platform-libraries@workspace:*
+2025-10-25T07:56:05.540Z [info]: Successfully processed @calcom/platform-libraries@workspace:*
+2025-10-25T07:56:06.548Z [info]: Processing npm/@calcom/platform-types@workspace:*
+2025-10-25T07:56:07.370Z [error]: Failed to fetch description for @calcom/platform-types@workspace:*: NPM fetch failed: Request failed with status code 404
+2025-10-25T07:56:07.742Z [info]: Successfully processed @calcom/platform-types@workspace:*
+2025-10-25T07:56:08.749Z [info]: Processing npm/@calcom/platform-utils@workspace:*
+2025-10-25T07:56:09.573Z [error]: Failed to fetch description for @calcom/platform-utils@workspace:*: NPM fetch failed: Request failed with status code 404
+2025-10-25T07:56:09.672Z [info]: Successfully processed @calcom/platform-utils@workspace:*
+2025-10-25T07:56:10.681Z [info]: Processing npm/@calcom/prisma@workspace:*
+2025-10-25T07:56:10.683Z [info]: Documentation already exists for @calcom/prisma@workspace:*
+2025-10-25T07:56:10.684Z [info]: Processing npm/@golevelup/ts-jest@^0.4.0
+2025-10-25T07:56:13.003Z [info]: Successfully processed @golevelup/ts-jest@^0.4.0
+2025-10-25T07:56:14.015Z [info]: Processing npm/@microsoft/microsoft-graph-types-beta@^0.42.0-preview
+2025-10-25T07:56:16.112Z [info]: Successfully processed @microsoft/microsoft-graph-types-beta@^0.42.0-preview
+2025-10-25T07:56:17.123Z [info]: Processing npm/@nest-lab/throttler-storage-redis@1.0.0
+2025-10-25T07:56:19.258Z [info]: Successfully processed @nest-lab/throttler-storage-redis@1.0.0
+2025-10-25T07:56:20.262Z [info]: Processing npm/@nestjs/axios@^4.0.0
+2025-10-25T07:56:20.679Z [info]: Successfully processed @nestjs/axios@^4.0.0
+2025-10-25T07:56:21.686Z [info]: Processing npm/@nestjs/bull@^10.1.1
+2025-10-25T07:56:23.946Z [info]: Successfully processed @nestjs/bull@^10.1.1
+2025-10-25T07:56:24.958Z [info]: Processing npm/@nestjs/common@^10.0.0
+2025-10-25T07:56:25.469Z [info]: Successfully processed @nestjs/common@^10.0.0
+2025-10-25T07:56:26.470Z [info]: Processing npm/@nestjs/config@^3.1.1
+2025-10-25T07:56:27.220Z [info]: Successfully processed @nestjs/config@^3.1.1
+2025-10-25T07:56:28.235Z [info]: Processing npm/@nestjs/core@^10.0.0
+2025-10-25T07:56:30.239Z [info]: Successfully processed @nestjs/core@^10.0.0
+2025-10-25T07:56:31.276Z [info]: Processing npm/@nestjs/jwt@^10.2.0
+2025-10-25T07:56:31.863Z [info]: Successfully processed @nestjs/jwt@^10.2.0
+2025-10-25T07:56:32.961Z [info]: Processing npm/@nestjs/passport@^10.0.2
+2025-10-25T07:56:33.590Z [info]: Successfully processed @nestjs/passport@^10.0.2
+2025-10-25T07:56:34.596Z [info]: Processing npm/@nestjs/platform-express@^10.0.0
+2025-10-25T07:56:35.203Z [info]: Successfully processed @nestjs/platform-express@^10.0.0
+2025-10-25T07:56:36.218Z [info]: Processing npm/@nestjs/swagger@^7.3.0
+2025-10-25T07:56:36.514Z [info]: Successfully processed @nestjs/swagger@^7.3.0
+2025-10-25T07:56:37.515Z [info]: Processing npm/@nestjs/throttler@6.2.1
+2025-10-25T07:56:38.198Z [info]: Successfully processed @nestjs/throttler@6.2.1
+2025-10-25T07:56:39.231Z [info]: Processing npm/@sentry/nestjs@^9.15.0
+2025-10-25T07:56:41.228Z [info]: Successfully processed @sentry/nestjs@^9.15.0
+2025-10-25T07:56:42.242Z [info]: Processing npm/@sentry/node@^9.15.0
+2025-10-25T07:56:43.121Z [info]: Successfully processed @sentry/node@^9.15.0
+2025-10-25T07:56:44.128Z [info]: Processing npm/@sentry/profiling-node@^9.15.0
+2025-10-25T07:56:46.307Z [info]: Successfully processed @sentry/profiling-node@^9.15.0
+2025-10-25T07:56:47.354Z [info]: Processing npm/@snyk/protect@latest
+2025-10-25T07:56:49.893Z [info]: Successfully processed @snyk/protect@latest
+2025-10-25T07:56:50.900Z [info]: Processing npm/body-parser@^1.20.2
+2025-10-25T07:56:51.065Z [info]: Successfully processed body-parser@^1.20.2
+2025-10-25T07:56:52.074Z [info]: Processing npm/bull@^4.12.4
+2025-10-25T07:56:52.282Z [info]: Successfully processed bull@^4.12.4
+2025-10-25T07:56:53.290Z [info]: Processing npm/class-transformer@^0.5.1
+2025-10-25T07:56:53.433Z [info]: Successfully processed class-transformer@^0.5.1
+2025-10-25T07:56:54.441Z [info]: Processing npm/class-validator@^0.14.0
+2025-10-25T07:56:54.596Z [info]: Successfully processed class-validator@^0.14.0
+2025-10-25T07:56:55.611Z [info]: Processing npm/concurrently@^9.1.2
+2025-10-25T07:56:55.768Z [info]: Successfully processed concurrently@^9.1.2
+2025-10-25T07:56:56.772Z [info]: Processing npm/cookie-parser@^1.4.6
+2025-10-25T07:56:56.919Z [info]: Successfully processed cookie-parser@^1.4.6
+2025-10-25T07:56:57.921Z [info]: Processing npm/dotenv@^16.3.1
+2025-10-25T07:56:58.406Z [info]: Successfully processed dotenv@^16.3.1
+2025-10-25T07:56:59.414Z [info]: Processing npm/fs-extra@^11.2.0
+2025-10-25T07:56:59.578Z [info]: Successfully processed fs-extra@^11.2.0
+2025-10-25T07:57:00.591Z [info]: Processing npm/googleapis@^84.0.0
+2025-10-25T07:57:00.805Z [info]: Successfully processed googleapis@^84.0.0
+2025-10-25T07:57:01.809Z [info]: Processing npm/helmet@^7.1.0
+2025-10-25T07:57:01.991Z [info]: Successfully processed helmet@^7.1.0
+2025-10-25T07:57:03.001Z [info]: Processing npm/ioredis@^5.3.2
+2025-10-25T07:57:03.531Z [info]: Successfully processed ioredis@^5.3.2
+2025-10-25T07:57:04.542Z [info]: Processing npm/jsforce@^1.11.0
+2025-10-25T07:57:05.584Z [info]: Successfully processed jsforce@^1.11.0
+2025-10-25T07:57:06.595Z [info]: Processing npm/lodash@^4.17.21
+2025-10-25T07:57:06.755Z [info]: Successfully processed lodash@^4.17.21
+2025-10-25T07:57:07.787Z [info]: Processing npm/luxon@^3.4.4
+2025-10-25T07:57:08.423Z [info]: Successfully processed luxon@^3.4.4
+2025-10-25T07:57:09.461Z [info]: Processing npm/nest-winston@^1.9.4
+2025-10-25T07:57:09.629Z [info]: Successfully processed nest-winston@^1.9.4
+2025-10-25T07:57:10.642Z [info]: Processing npm/next-auth@^4.22.1
+2025-10-25T07:57:11.022Z [info]: Successfully processed next-auth@^4.22.1
+2025-10-25T07:57:12.038Z [info]: Processing npm/passport@^0.7.0
+2025-10-25T07:57:12.194Z [info]: Successfully processed passport@^0.7.0
+2025-10-25T07:57:13.197Z [info]: Processing npm/passport-jwt@^4.0.1
+2025-10-25T07:57:13.713Z [info]: Successfully processed passport-jwt@^4.0.1
+2025-10-25T07:57:14.727Z [info]: Processing npm/qs-stringify@^1.2.1
+2025-10-25T07:57:15.678Z [info]: Successfully processed qs-stringify@^1.2.1
+2025-10-25T07:57:16.699Z [info]: Processing npm/querystring@^0.2.1
+2025-10-25T07:57:16.839Z [info]: Successfully processed querystring@^0.2.1
+2025-10-25T07:57:17.840Z [info]: Processing npm/reflect-metadata@^0.1.13
+2025-10-25T07:57:18.000Z [info]: Successfully processed reflect-metadata@^0.1.13
+2025-10-25T07:57:19.003Z [info]: Processing npm/rxjs@^7.8.1
+2025-10-25T07:57:20.201Z [info]: Successfully processed rxjs@^7.8.1
+2025-10-25T07:57:21.203Z [info]: Processing npm/stripe@^15.3.0
+2025-10-25T07:57:21.803Z [info]: Successfully processed stripe@^15.3.0
+2025-10-25T07:57:22.814Z [info]: Processing npm/uuid@^8.3.2
+2025-10-25T07:57:22.815Z [info]: Documentation already exists for uuid@^8.3.2
+2025-10-25T07:57:22.816Z [info]: Processing npm/winston@^3.13.0
+2025-10-25T07:57:22.986Z [info]: Successfully processed winston@^3.13.0
+2025-10-25T07:57:24.002Z [info]: Processing npm/winston-transport@^4.7.0
+2025-10-25T07:57:24.474Z [info]: Successfully processed winston-transport@^4.7.0
+2025-10-25T07:57:25.486Z [info]: Processing npm/zod@^3.22.4
+2025-10-25T07:57:25.488Z [info]: Documentation already exists for zod@^3.22.4
+2025-10-25T07:57:25.488Z [info]: Processing npm/@calcom/eslint-config@workspace:*
+2025-10-25T07:57:25.489Z [info]: Documentation already exists for @calcom/eslint-config@workspace:*
+2025-10-25T07:57:25.490Z [info]: Processing npm/@nestjs/cli@^10.0.0
+2025-10-25T07:57:25.887Z [info]: Successfully processed @nestjs/cli@^10.0.0
+2025-10-25T07:57:26.893Z [info]: Processing npm/@nestjs/schematics@^10.0.0
+2025-10-25T07:57:27.418Z [info]: Successfully processed @nestjs/schematics@^10.0.0
+2025-10-25T07:57:28.430Z [info]: Processing npm/@nestjs/testing@^10.0.0
+2025-10-25T07:57:29.257Z [info]: Successfully processed @nestjs/testing@^10.0.0
+2025-10-25T07:57:30.263Z [info]: Processing npm/@types/cookie-parser@^1.4.6
+2025-10-25T07:57:30.428Z [info]: Successfully processed @types/cookie-parser@^1.4.6
+2025-10-25T07:57:31.431Z [info]: Processing npm/@types/express@^4.17.21
+2025-10-25T07:57:31.623Z [info]: Successfully processed @types/express@^4.17.21
+2025-10-25T07:57:32.636Z [info]: Processing npm/@types/fs-extra@^11.0.4
+2025-10-25T07:57:32.807Z [info]: Successfully processed @types/fs-extra@^11.0.4
+2025-10-25T07:57:33.812Z [info]: Processing npm/@types/jest@^29.5.10
+2025-10-25T07:57:34.380Z [info]: Successfully processed @types/jest@^29.5.10
+2025-10-25T07:57:35.384Z [info]: Processing npm/@types/luxon@^3.3.7
+2025-10-25T07:57:35.773Z [info]: Successfully processed @types/luxon@^3.3.7
+2025-10-25T07:57:36.779Z [info]: Processing npm/@types/passport-jwt@^3.0.13
+2025-10-25T07:57:36.945Z [info]: Successfully processed @types/passport-jwt@^3.0.13
+2025-10-25T07:57:37.954Z [info]: Processing npm/@types/supertest@^2.0.12
+2025-10-25T07:57:38.129Z [info]: Successfully processed @types/supertest@^2.0.12
+2025-10-25T07:57:39.144Z [info]: Processing npm/@typescript-eslint/eslint-plugin@^6
+2025-10-25T07:57:41.638Z [info]: Successfully processed @typescript-eslint/eslint-plugin@^6
+2025-10-25T07:57:42.647Z [info]: Processing npm/@typescript-eslint/parser@^6
+2025-10-25T07:57:44.319Z [info]: Successfully processed @typescript-eslint/parser@^6
+2025-10-25T07:57:45.324Z [info]: Processing npm/jest@^29.7.0
+2025-10-25T07:57:45.568Z [info]: Successfully processed jest@^29.7.0
+2025-10-25T07:57:46.581Z [info]: Processing npm/jest-date-mock@^1.0.10
+2025-10-25T07:57:47.608Z [info]: Successfully processed jest-date-mock@^1.0.10
+2025-10-25T07:57:48.611Z [info]: Processing npm/node-mocks-http@^1.16.2
+2025-10-25T07:57:49.095Z [info]: Successfully processed node-mocks-http@^1.16.2
+2025-10-25T07:57:50.106Z [info]: Processing npm/prettier@^2.8.6
+2025-10-25T07:57:50.364Z [info]: Successfully processed prettier@^2.8.6
+2025-10-25T07:57:51.371Z [info]: Processing npm/source-map-support@^0.5.21
+2025-10-25T07:57:51.581Z [info]: Successfully processed source-map-support@^0.5.21
+2025-10-25T07:57:52.593Z [info]: Processing npm/supertest@^6.3.3
+2025-10-25T07:57:52.775Z [info]: Successfully processed supertest@^6.3.3
+2025-10-25T07:57:53.779Z [info]: Processing npm/ts-jest@^29.1.1
+2025-10-25T07:57:54.594Z [info]: Successfully processed ts-jest@^29.1.1
+2025-10-25T07:57:55.610Z [info]: Processing npm/ts-loader@^9.4.3
+2025-10-25T07:57:55.862Z [info]: Successfully processed ts-loader@^9.4.3
+2025-10-25T07:57:56.871Z [info]: Processing npm/ts-node@^10.9.1
+2025-10-25T07:57:57.134Z [info]: Successfully processed ts-node@^10.9.1
+2025-10-25T07:57:58.139Z [info]: Processing npm/tsconfig-paths@^4.1.0
+2025-10-25T07:57:59.081Z [info]: Successfully processed tsconfig-paths@^4.1.0
+2025-10-25T07:58:00.096Z [info]: Processing npm/typescript@^5.9.0-beta
+2025-10-25T07:58:00.098Z [info]: Documentation already exists for typescript@^5.9.0-beta
+2025-10-25T07:58:00.099Z [info]: Processing npm/@calcom/config@workspace:*
+2025-10-25T07:58:00.953Z [error]: Failed to fetch description for @calcom/config@workspace:*: NPM fetch failed: Request failed with status code 404
+2025-10-25T07:58:01.140Z [info]: Successfully processed @calcom/config@workspace:*
+2025-10-25T07:58:02.154Z [info]: Processing npm/@calcom/lib@workspace:*
+2025-10-25T07:58:02.155Z [info]: Documentation already exists for @calcom/lib@workspace:*
+2025-10-25T07:58:02.156Z [info]: Processing npm/@calcom/ui@workspace:*
+2025-10-25T07:58:02.983Z [error]: Failed to fetch description for @calcom/ui@workspace:*: NPM fetch failed: Request failed with status code 404
+2025-10-25T07:58:03.081Z [info]: Successfully processed @calcom/ui@workspace:*
+2025-10-25T07:58:04.087Z [info]: Processing npm/@radix-ui/react-tooltip@^1.1.8
+2025-10-25T07:58:05.183Z [info]: Successfully processed @radix-ui/react-tooltip@^1.1.8
+2025-10-25T07:58:06.197Z [info]: Processing npm/airtable@^0.12.2
+2025-10-25T07:58:07.742Z [info]: Successfully processed airtable@^0.12.2
+2025-10-25T07:58:08.756Z [info]: Processing npm/fumadocs-core@^14.5.4
+2025-10-25T07:58:10.552Z [info]: Successfully processed fumadocs-core@^14.5.4
+2025-10-25T07:58:11.560Z [info]: Processing npm/fumadocs-mdx@^11.1.1
+2025-10-25T07:58:13.012Z [info]: Successfully processed fumadocs-mdx@^11.1.1
+2025-10-25T07:58:14.022Z [info]: Processing npm/fumadocs-typescript@^3.0.2
+2025-10-25T07:58:15.323Z [info]: Successfully processed fumadocs-typescript@^3.0.2
+2025-10-25T07:58:16.340Z [info]: Processing npm/fumadocs-ui@14.4.0
+2025-10-25T07:58:17.469Z [info]: Successfully processed fumadocs-ui@14.4.0
+2025-10-25T07:58:18.470Z [info]: Processing npm/next@15.1.6
+2025-10-25T07:58:20.330Z [info]: Successfully processed next@15.1.6
+2025-10-25T07:58:21.339Z [info]: Processing npm/react@^18.0.0
+2025-10-25T07:58:21.963Z [info]: Successfully processed react@^18.0.0
+2025-10-25T07:58:22.968Z [info]: Processing npm/react-dom@^18.0.0
+2025-10-25T07:58:24.166Z [info]: Successfully processed react-dom@^18.0.0
+2025-10-25T07:58:25.180Z [info]: Processing npm/react-hot-toast@^2.5.2
+2025-10-25T07:58:25.326Z [info]: Successfully processed react-hot-toast@^2.5.2
+2025-10-25T07:58:26.330Z [info]: Processing npm/@calcom/eslint-config@workspace:*
+2025-10-25T07:58:26.332Z [info]: Documentation already exists for @calcom/eslint-config@workspace:*
+2025-10-25T07:58:26.332Z [info]: Processing npm/@calcom/tsconfig@workspace:*
+2025-10-25T07:58:26.333Z [info]: Documentation already exists for @calcom/tsconfig@workspace:*
+2025-10-25T07:58:26.334Z [info]: Processing npm/@types/mdx@^2.0.13
+2025-10-25T07:58:26.487Z [info]: Successfully processed @types/mdx@^2.0.13
+2025-10-25T07:58:27.504Z [info]: Processing npm/@types/node@^20
+2025-10-25T07:58:28.441Z [info]: Successfully processed @types/node@^20
+2025-10-25T07:58:29.447Z [info]: Processing npm/@types/react@^18
+2025-10-25T07:58:30.223Z [info]: Successfully processed @types/react@^18
+2025-10-25T07:58:31.236Z [info]: Processing npm/@types/react-dom@^18
+2025-10-25T07:58:32.820Z [info]: Successfully processed @types/react-dom@^18
+2025-10-25T07:58:33.832Z [info]: Processing npm/postcss@^8
+2025-10-25T07:58:34.201Z [info]: Successfully processed postcss@^8
+2025-10-25T07:58:35.210Z [info]: Processing npm/tailwindcss@^3.4.1
+2025-10-25T07:58:36.897Z [info]: Successfully processed tailwindcss@^3.4.1
+2025-10-25T07:58:37.911Z [info]: Processing npm/typescript@^5.9.0-beta
+2025-10-25T07:58:37.912Z [info]: Documentation already exists for typescript@^5.9.0-beta
+2025-10-25T07:58:37.912Z [info]: Processing npm/@boxyhq/saml-jackson@1.52.2
+2025-10-25T07:58:41.605Z [info]: Successfully processed @boxyhq/saml-jackson@1.52.2
+2025-10-25T07:58:42.611Z [info]: Processing npm/@calcom/app-store@workspace:*
+2025-10-25T07:58:42.614Z [info]: Documentation already exists for @calcom/app-store@workspace:*
+2025-10-25T07:58:42.615Z [info]: Processing npm/@calcom/app-store-cli@workspace:*
+2025-10-25T07:58:43.616Z [error]: Failed to fetch description for @calcom/app-store-cli@workspace:*: NPM fetch failed: Request failed with status code 404
+2025-10-25T07:58:43.845Z [info]: Successfully processed @calcom/app-store-cli@workspace:*
+2025-10-25T07:58:44.846Z [info]: Processing npm/@calcom/dayjs@workspace:*
+2025-10-25T07:58:44.848Z [info]: Documentation already exists for @calcom/dayjs@workspace:*
+2025-10-25T07:58:44.849Z [info]: Processing npm/@calcom/embed-core@workspace:*
+2025-10-25T07:58:46.959Z [info]: Successfully processed @calcom/embed-core@workspace:*
+2025-10-25T07:58:47.967Z [info]: Processing npm/@calcom/embed-react@workspace:*
+2025-10-25T07:58:50.430Z [info]: Successfully processed @calcom/embed-react@workspace:*
+2025-10-25T07:58:51.440Z [info]: Processing npm/@calcom/embed-snippet@workspace:*
+2025-10-25T07:58:53.572Z [info]: Successfully processed @calcom/embed-snippet@workspace:*
+2025-10-25T07:58:54.580Z [info]: Processing npm/@calcom/features@workspace:*
+2025-10-25T07:58:54.583Z [info]: Documentation already exists for @calcom/features@workspace:*
+2025-10-25T07:58:54.584Z [info]: Processing npm/@calcom/lib@workspace:*
+2025-10-25T07:58:54.587Z [info]: Documentation already exists for @calcom/lib@workspace:*
+2025-10-25T07:58:54.588Z [info]: Processing npm/@calcom/platform-enums@workspace:*
+2025-10-25T07:58:54.591Z [info]: Documentation already exists for @calcom/platform-enums@workspace:*
+2025-10-25T07:58:54.592Z [info]: Processing npm/@calcom/platform-types@workspace:*
+2025-10-25T07:58:54.597Z [info]: Documentation already exists for @calcom/platform-types@workspace:*
+2025-10-25T07:58:54.599Z [info]: Processing npm/@calcom/prisma@workspace:*
+2025-10-25T07:58:54.601Z [info]: Documentation already exists for @calcom/prisma@workspace:*
+2025-10-25T07:58:54.602Z [info]: Processing npm/@calcom/trpc@workspace:*
+2025-10-25T07:58:54.606Z [info]: Documentation already exists for @calcom/trpc@workspace:*
+2025-10-25T07:58:54.607Z [info]: Processing npm/@calcom/tsconfig@workspace:*
+2025-10-25T07:58:54.612Z [info]: Documentation already exists for @calcom/tsconfig@workspace:*
+2025-10-25T07:58:54.613Z [info]: Processing npm/@calcom/ui@workspace:*
+2025-10-25T07:58:54.617Z [info]: Documentation already exists for @calcom/ui@workspace:*
+2025-10-25T07:58:54.619Z [info]: Processing npm/@daily-co/daily-js@^0.83.1
+2025-10-25T07:58:55.344Z [info]: Successfully processed @daily-co/daily-js@^0.83.1
+2025-10-25T07:58:56.353Z [info]: Processing npm/@daily-co/daily-react@^0.23.2
+2025-10-25T07:58:58.351Z [info]: Successfully processed @daily-co/daily-react@^0.23.2
+2025-10-25T07:58:59.353Z [info]: Processing npm/@dub/analytics@^0.0.27
+2025-10-25T07:59:01.697Z [info]: Successfully processed @dub/analytics@^0.0.27
+2025-10-25T07:59:02.702Z [info]: Processing npm/@dub/embed-core@^0.0.10
+2025-10-25T07:59:05.020Z [info]: Successfully processed @dub/embed-core@^0.0.10
+2025-10-25T07:59:06.032Z [info]: Processing npm/@dub/embed-react@^0.0.10
+2025-10-25T07:59:08.034Z [info]: Successfully processed @dub/embed-react@^0.0.10
+2025-10-25T07:59:09.042Z [info]: Processing npm/@formkit/auto-animate@1.0.0-beta.5
+2025-10-25T07:59:09.559Z [info]: Successfully processed @formkit/auto-animate@1.0.0-beta.5
+2025-10-25T07:59:10.568Z [info]: Processing npm/@glidejs/glide@^3.5.2
+2025-10-25T07:59:11.210Z [info]: Successfully processed @glidejs/glide@^3.5.2
+2025-10-25T07:59:12.215Z [info]: Processing npm/@googleapis/admin@^23.0.0
+2025-10-25T07:59:15.116Z [info]: Successfully processed @googleapis/admin@^23.0.0
+2025-10-25T07:59:16.126Z [info]: Processing npm/@googleapis/calendar@^9.7.9
+2025-10-25T07:59:19.213Z [info]: Successfully processed @googleapis/calendar@^9.7.9
+2025-10-25T07:59:20.216Z [info]: Processing npm/@googleapis/oauth2@^1.0.7
+2025-10-25T07:59:22.217Z [info]: Successfully processed @googleapis/oauth2@^1.0.7
+2025-10-25T07:59:23.230Z [info]: Processing npm/@hookform/error-message@^2.0.0
+2025-10-25T07:59:25.650Z [info]: Successfully processed @hookform/error-message@^2.0.0
+2025-10-25T07:59:26.658Z [info]: Processing npm/@hookform/resolvers@^2.9.7
+2025-10-25T07:59:27.218Z [info]: Successfully processed @hookform/resolvers@^2.9.7
+2025-10-25T07:59:28.235Z [info]: Processing npm/@next-auth/prisma-adapter@^1.0.4
+2025-10-25T07:59:28.457Z [info]: Successfully processed @next-auth/prisma-adapter@^1.0.4
+2025-10-25T07:59:29.498Z [info]: Processing npm/@next/bundle-analyzer@^15.5.2
+2025-10-25T07:59:30.747Z [info]: Successfully processed @next/bundle-analyzer@^15.5.2
+2025-10-25T07:59:31.759Z [info]: Processing npm/@prisma/nextjs-monorepo-workaround-plugin@^6.16.1
+2025-10-25T07:59:31.761Z [info]: Documentation already exists for @prisma/nextjs-monorepo-workaround-plugin@^6.16.1
+2025-10-25T07:59:31.761Z [info]: Processing npm/@radix-ui/react-avatar@^1.0.4
+2025-10-25T07:59:31.983Z [info]: Successfully processed @radix-ui/react-avatar@^1.0.4
+2025-10-25T07:59:32.993Z [info]: Processing npm/@radix-ui/react-collapsible@^1.0.0
+2025-10-25T07:59:33.310Z [info]: Successfully processed @radix-ui/react-collapsible@^1.0.0
+2025-10-25T07:59:34.375Z [info]: Processing npm/@radix-ui/react-dialog@^1.0.4
+2025-10-25T07:59:35.205Z [info]: Successfully processed @radix-ui/react-dialog@^1.0.4
+2025-10-25T07:59:36.264Z [info]: Processing npm/@radix-ui/react-dropdown-menu@^2.0.5
+2025-10-25T07:59:37.114Z [info]: Successfully processed @radix-ui/react-dropdown-menu@^2.0.5
+2025-10-25T07:59:38.200Z [info]: Processing npm/@radix-ui/react-hover-card@^1.0.7
+2025-10-25T07:59:38.689Z [info]: Successfully processed @radix-ui/react-hover-card@^1.0.7
+2025-10-25T07:59:39.795Z [info]: Processing npm/@radix-ui/react-id@^1.0.0
+2025-10-25T07:59:40.046Z [info]: Successfully processed @radix-ui/react-id@^1.0.0
+2025-10-25T07:59:41.061Z [info]: Processing npm/@radix-ui/react-popover@^1.0.2
+2025-10-25T07:59:41.609Z [info]: Successfully processed @radix-ui/react-popover@^1.0.2
+2025-10-25T07:59:42.611Z [info]: Processing npm/@radix-ui/react-radio-group@^1.0.0
+2025-10-25T07:59:42.814Z [info]: Successfully processed @radix-ui/react-radio-group@^1.0.0
+2025-10-25T07:59:43.823Z [info]: Processing npm/@radix-ui/react-slider@^1.0.0
+2025-10-25T07:59:44.042Z [info]: Successfully processed @radix-ui/react-slider@^1.0.0
+2025-10-25T07:59:45.055Z [info]: Processing npm/@radix-ui/react-switch@^1.0.0
+2025-10-25T07:59:45.470Z [info]: Successfully processed @radix-ui/react-switch@^1.0.0
+2025-10-25T07:59:46.484Z [info]: Processing npm/@radix-ui/react-toggle-group@^1.0.0
+2025-10-25T07:59:47.003Z [info]: Successfully processed @radix-ui/react-toggle-group@^1.0.0
+2025-10-25T07:59:48.048Z [info]: Processing npm/@radix-ui/react-tooltip@^1.0.0
+2025-10-25T07:59:48.395Z [info]: Successfully processed @radix-ui/react-tooltip@^1.0.0
+2025-10-25T07:59:49.398Z [info]: Processing npm/@sentry/nextjs@^9.15.0
+2025-10-25T07:59:49.400Z [info]: Documentation already exists for @sentry/nextjs@^9.15.0
+2025-10-25T07:59:49.400Z [info]: Processing npm/@stripe/react-stripe-js@^1.10.0
+2025-10-25T08:05:16.493Z [info]: Initializing DocumentationMapper...
+2025-10-25T08:05:16.498Z [info]: Initializing sqlite database...
+2025-10-25T08:05:16.505Z [info]: Connected to SQLite database
+2025-10-25T08:05:17.074Z [info]: SQLite tables created successfully
+2025-10-25T08:05:17.077Z [info]: DocumentationMapper initialized successfully
+2025-10-25T08:05:17.084Z [info]: Loading dependencies from JSON file: output.json
+2025-10-25T08:05:17.104Z [info]: Processing 943 dependencies
+2025-10-25T08:05:17.105Z [info]: Processing npm/connect@^3.7.0
+2025-10-25T08:05:19.045Z [info]: Successfully processed connect@^3.7.0
+2025-10-25T08:05:19.496Z [info]: Processing npm/http@^0.0.1-security
+2025-10-25T08:05:20.227Z [info]: Successfully processed http@^0.0.1-security
+2025-10-25T08:05:20.531Z [info]: Processing npm/http-proxy-middleware@^2.0.6
+2025-10-25T08:05:21.444Z [info]: Successfully processed http-proxy-middleware@^2.0.6
+2025-10-25T08:05:21.657Z [info]: Processing npm/@calcom/eslint-config@workspace:*
+2025-10-25T08:05:22.489Z [error]: Failed to fetch description for @calcom/eslint-config@workspace:*: NPM fetch failed: Request failed with status code 404
+2025-10-25T08:05:22.538Z [warn]: Failed to get repository URL for @calcom/eslint-config: Request failed with status code 404
+2025-10-25T08:05:22.675Z [warn]: 403 error on attempt 1 for @calcom/eslint-config@workspace:*, retrying in 2 seconds...
+2025-10-25T08:05:24.765Z [warn]: 403 error on attempt 2 for @calcom/eslint-config@workspace:*, retrying in 4 seconds...
+2025-10-25T08:05:29.011Z [info]: Successfully processed @calcom/eslint-config@workspace:*
+2025-10-25T08:05:29.291Z [info]: Processing npm/@calcom/app-store@workspace:*
+2025-10-25T08:05:31.441Z [warn]: 403 error on attempt 1 for @calcom/app-store@workspace:*, retrying in 2 seconds...
+2025-10-25T08:05:33.615Z [warn]: 403 error on attempt 2 for @calcom/app-store@workspace:*, retrying in 4 seconds...
+2025-10-25T08:05:37.876Z [info]: Successfully processed @calcom/app-store@workspace:*
+2025-10-25T08:05:38.295Z [info]: Processing npm/@calcom/dayjs@workspace:*
+2025-10-25T08:05:39.269Z [error]: Failed to fetch description for @calcom/dayjs@workspace:*: NPM fetch failed: Request failed with status code 404
+2025-10-25T08:05:39.338Z [warn]: Failed to get repository URL for @calcom/dayjs: Request failed with status code 404
+2025-10-25T08:05:39.463Z [warn]: 403 error on attempt 1 for @calcom/dayjs@workspace:*, retrying in 2 seconds...
+2025-10-25T08:05:41.563Z [warn]: 403 error on attempt 2 for @calcom/dayjs@workspace:*, retrying in 4 seconds...
+2025-10-25T08:05:46.039Z [info]: Successfully processed @calcom/dayjs@workspace:*
+2025-10-25T08:05:46.403Z [info]: Processing npm/@calcom/emails@workspace:*
+2025-10-25T08:05:47.579Z [error]: Failed to fetch description for @calcom/emails@workspace:*: NPM fetch failed: Request failed with status code 404
+2025-10-25T08:05:47.632Z [warn]: Failed to get repository URL for @calcom/emails: Request failed with status code 404
+2025-10-25T08:05:47.734Z [warn]: 403 error on attempt 1 for @calcom/emails@workspace:*, retrying in 2 seconds...
+2025-10-25T08:05:49.840Z [warn]: 403 error on attempt 2 for @calcom/emails@workspace:*, retrying in 4 seconds...
+2025-10-25T08:05:54.073Z [info]: Successfully processed @calcom/emails@workspace:*
+2025-10-25T08:05:54.332Z [info]: Processing npm/@calcom/features@workspace:*
+2025-10-25T08:05:55.295Z [error]: Failed to fetch description for @calcom/features@workspace:*: NPM fetch failed: Request failed with status code 404
+2025-10-25T08:05:55.366Z [warn]: Failed to get repository URL for @calcom/features: Request failed with status code 404
+2025-10-25T08:05:55.478Z [warn]: 403 error on attempt 1 for @calcom/features@workspace:*, retrying in 2 seconds...
+2025-10-25T08:05:57.587Z [warn]: 403 error on attempt 2 for @calcom/features@workspace:*, retrying in 4 seconds...

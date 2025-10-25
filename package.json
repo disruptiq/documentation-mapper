@@ -1,0 +1,30 @@
+{
+  "name": "documentation-mapper",
+  "version": "1.0.0",
+  "description": "A tool to extract dependencies from codebases and fetch their documentation",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js --dev"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.6",
+    "mongodb": "^6.3.0",
+    "axios": "^1.6.2",
+    "commander": "^11.1.0",
+    "glob": "^10.3.10",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "documentation",
+    "dependencies",
+    "pypi",
+    "npm",
+    "crawler"
+  ],
+  "author": "",
+  "license": "MIT"
+}
